@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\script.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+    <ClCompile Include="src\VehiclesManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\utils.h" />
+    <ClInclude Include="src\VehicleList.h" />
+    <ClInclude Include="src\VehicleManager.h" />
+    <ClInclude Include="lib\ScriptHookV_SDK\inc\enums.h">
+      <Filter>lib\ScriptHookV</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ScriptHookV_SDK\inc\main.h">
+      <Filter>lib\ScriptHookV</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ScriptHookV_SDK\inc\nativeCaller.h">
+      <Filter>lib\ScriptHookV</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ScriptHookV_SDK\inc\natives.h">
+      <Filter>lib\ScriptHookV</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ScriptHookV_SDK\inc\types.h">
+      <Filter>lib\ScriptHookV</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{a318207a-4321-40b3-bfeb-afb923fd9c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\ScriptHookV">
+      <UniqueIdentifier>{bb8751b4-ff0f-4cdb-ad58-73a4b31031ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\ScriptHookV_SDK\lib\ScriptHookV.lib">
+      <Filter>lib\ScriptHookV</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
