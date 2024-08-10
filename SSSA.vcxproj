@@ -28,6 +28,12 @@
   <ItemGroup>
     <Library Include="lib\ScriptHookV_SDK\lib\ScriptHookV.lib" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7ffa62b9-b19c-481c-b292-d58328497511}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

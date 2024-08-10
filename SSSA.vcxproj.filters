@@ -38,4 +38,10 @@
       <Filter>lib\ScriptHookV</Filter>
     </Library>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
+  </ItemGroup>
 </Project>
